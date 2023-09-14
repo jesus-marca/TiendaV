@@ -1,0 +1,111 @@
+.inicio{
+  background-color:lightblue  ;
+  width: 100%;
+  margin-bottom: -50px;
+}
+.inicio div{
+  width: 5%;
+}
+.flecha {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.cabecera{
+    background-color:lightblue;
+    height: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+.cabecera h1{
+    text-align: center;
+}
+
+.contenedor {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.contenedor h1{
+  text-align: center;
+  margin-bottom: 1rem;
+  
+}
+.contenedor>div {
+  width: 50%;
+}
+
+.sins {
+  
+  align-items: center;
+  justify-content: center;
+  
+  display:flex;
+
+}
+.sins img{
+  margin-top: 4rem;
+  width:50%;
+}
+
+.sins img:hover{
+  width: 60%;
+  opacity: 0.6;
+}
+
+
+a{
+    font-size: 20px;    
+    color: blue;  
+  
+    text-decoration: none;
+  }
+
+
+.barra{
+    text-align: center;
+    background-color: lightblue;
+    height: 100px;
+    
+}
+
+a:hover{
+    color: rgb(240, 235, 236);
+    font-size: 24px;   
+}
+
+/*cuerpo*/
+.cuerpo{
+    height: 80vh;
+}
+.cuerpo p{
+    margin-top: 4%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*imagenes*/
+.tesla{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+.tesla img{
+  margin-top: 35px;
+  border-radius: 20px;
+  height: 20rem;
+}
+
+
+.tesla img:hover{
+  
+  opacity: .3 ;
+  height: 25rem;
+}
